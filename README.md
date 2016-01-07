@@ -2,7 +2,7 @@
 
 This windows console application and framework was written from scratch in less than 6 hours to support a checkers game. This application is in an unfinished state.
 
-Some of the key features this application framework supports are:
+**Key Features**:
 
 * config-driven design		- much of the core application initialization is controlled via .ini configuration which facilitates adding new game types or modifying various tweakables for the checkers game mode. we also support dynamic factory instantiation by class name from config
 * modular infrastructure	- makes swapping out rendering solution, input system, AI controllers, etc. easy
@@ -11,7 +11,7 @@ Some of the key features this application framework supports are:
 * player turn system - makes it easy to support different combinations of human and 
 					   AI players
 
-TODO:
+**TODO**:
 * finish implementation by finding and filling in TODOs
 * replace rendering with a GUI-based rendering solution
 * implement GameState control logic
